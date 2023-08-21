@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício Final - JS</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+
+    <style>
+        .navbar{
+            background-color: rgb(189, 189, 189);
+        }
+
+        .rodape{
+          background-color: rgb(0, 0, 0);
+          font-size: 30px;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          text-align: center;
+          height: 300px;
+          box-shadow: 0px -10px 10px rgba(128, 126, 126, 0.8);
+          line-height: 300px;
+          margin-top: 25px;
+          border-radius: 5px;
+          color: white;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light navbar-info">
+  <!-- Just an image -->
+<nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJY827oFZlmUqMPePvo1xxHs4g9yxXRhzX2SW8IKahaw&s" width="30" height="30" alt="">
+  </a>
+</nav>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+         <li class="nav-item active">
+        <a class="nav-link" href="Index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Makeup.html">Sobre nós</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Makeup
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Base</a>
+          <a class="dropdown-item" href="#">Batom</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Outros</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Lançamentos</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+    </form>
+  </div>
+</nav>
+
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="https://marimaria.vteximg.com.br/arquivos/ids/161690/Banner-site.jpg?v=638097462452030000" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://marimaria.vteximg.com.br/arquivos/ids/163627/desk-Banner-cover-up.png?v=638258185044070000" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://marimaria.vteximg.com.br/arquivos/ids/161864/Banner%20site%20gloss%20_Prancheta%201.jpg?v=638113108670800000" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+ <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+<div class="row m-2">
+
+<div class="card col-4" style="width: 18rem;">
+  <img class="card-img-top" src="https://www.marimariamakeup.com/arquivos/ids/161799-undefined-undefined/Base-Cover-Up-Matte-laranja-Mari-Maria-MM06.png?v=638104597941570000" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">R$ 39,90</h5>
+    <p class="card-text">Base Cover Up - MM06 Mari Maria Makeup.</p>
+    <a href="#" class="btn btn-primary">Comprar</a>
+  </div>
+</div>
+
+<div class="card col-4" style="width: 18rem;">
+    <img class="card-img-top" src="https://www.marimariamakeup.com/arquivos/ids/161904-undefined-undefined/Embalagem-acrilico-transparente-tampa-laranja-aberta-gloss-liquido-rosa-bubble-gum-mari-maria.png?v=638116527124970000" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">R$ 34,90</h5>
+      <p class="card-text">
+        Fire Kiss Gloss - Bubble Gum Mari Maria Makeup</p>
+      <a href="#" class="btn btn-primary">Comprar</a>
+    </div>
+  </div>
+
+  <div class="card col-4" style="width: 18rem;">
+    <img class="card-img-top" src="https://www.marimariamakeup.com/arquivos/ids/162316-undefined-undefined/nude-pallete-ginger-glow-tampa-transparente-sombra-neutra-mari-maria-makeup.png?v=638161402957530000" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">R$ 82,90</h5>
+      <p class="card-text">Paleta de Sombras Ginger Glow - Nude Palette | Mari Maria Makeup</p>
+      <a href="#" class="btn btn-primary">Comprar</a>
+    </div>
+  </div>
+
+</div>
+
+<div class="row m-2">
+
+    <div class="card col-4" style="width: 18rem;">
+      <img class="card-img-top" src="https://www.marimariamakeup.com/arquivos/ids/158998-undefined-undefined/Frasco-Transparente-Fosco-Base-Corretivo-Alta-Cobertura-Contorno-Iluminacao-Velvet-Skin-Cacau.png?v=637689778584130000" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">R$ 69,90</h5>
+        <p class="card-text">Base e Corretivo Matte - Cacau Mari Maria Makeup</p>
+        <a href="#" class="btn btn-primary">Comprar</a>
+      </div>
+    </div>
+    
+    <div class="card col-4" style="width: 18rem;">
+        <img class="card-img-top" src="https://www.marimariamakeup.com/arquivos/ids/162300-undefined-undefined/batom-stick-ginger-glow-proud-tampa-laranja-mari-maria-makeup.png?v=638161362187100000" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">R$ 36,90</h5>
+          <p class="card-text">Batom Stick Ginger Glow - Proud | Mari Maria Makeup</p>
+          <a href="#" class="btn btn-primary">Comprar</a>
+        </div>
+      </div>
+    
+      <div class="card col-4" style="width: 18rem;">
+        <img class="card-img-top" src="https://www.marimariamakeup.com/arquivos/ids/163635-undefined-undefined/iluminador-facial-aurora-embalagem-laranja-rosa-mari-maria-makeup.png?v=638258914850800000" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">R$ 39,90</h5>
+          <p class="card-text">Iluminador Facial - Divine Glow - Aurora | Mari Maria Makeup</p>
+          <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#id_modal1">Comprar</a>
+        </div>
+      </div>
+    
+    </div>
+
+
+<div class="modal" id="id_modal1" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Modal body text goes here.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="rodape">
+    CONTEUDO
+</div>
+
+</body>
+
+<!-- Importando o jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  
+<!-- Importando o js do bootstrap -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</html>
